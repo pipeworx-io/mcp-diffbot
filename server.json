@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/diffbot",
   "title": "Diffbot",
   "description": "Diffbot MCP — Knowledge Graph company enrichment + web content extraction (diffbot.com)",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/diffbot",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-diffbot",
