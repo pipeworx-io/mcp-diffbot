@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-diffbot",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "Diffbot MCP — Knowledge Graph company enrichment + web content extraction (diffbot.com)",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-diffbot": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "diffbot"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-diffbot.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/diffbot",
   "pipeworx": {
-    "sourceHash": "v1-663ba3f1ce6617d0ef70cb7eec89ac26b67d390919392373f6beec2efded7fd3",
-    "sourceCommit": "29fb434ca65fe0f61191f19c3502f583f5fb99d7"
+    "mode": "gateway",
+    "slug": "diffbot",
+    "gatewaySlug": "diffbot",
+    "sourceHash": "v1-0fd350cb9178730cd42041de3b138db1cb758e06ab235e52573d35498e4bda2e",
+    "sourceCommit": "0b3faaa4d85299a961dd86dea75a0f0e1dad280c"
   }
 }
