@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-diffbot",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Diffbot MCP — Knowledge Graph company enrichment + web content extraction (diffbot.com)",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "diffbot",
     "gatewaySlug": "diffbot",
-    "sourceHash": "v1-0fd350cb9178730cd42041de3b138db1cb758e06ab235e52573d35498e4bda2e",
-    "sourceCommit": "0b3faaa4d85299a961dd86dea75a0f0e1dad280c"
+    "sourceHash": "v1-867329a88a1c2601c0dcb10d59ecff3bff5533b6fb302602b8c17f5e236ab0a9",
+    "sourceCommit": "e707a4bb6209f432984c0a83bf64b3138130db89"
   }
 }
